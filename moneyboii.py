@@ -1,7 +1,7 @@
-x = float(input("what is the interest rate"))
+x = float(input("what is the annual multiplier"))
 y = float(input("how much per year"))
 z = int(input("how many years"))
-t = float(input("starting totsl"))
+t = float(input("starting total"))
 temp = t
 for i in range(z):
     t = t*x + y
